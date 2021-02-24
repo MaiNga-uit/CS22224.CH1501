@@ -7,13 +7,13 @@ Mai Phương Nga - CH2002010
 ## Prerequisites
 <br>**To run the project, please make sure that your computer was installed the following packages:**<br>
 <br>**1. Python 3 & Pip 3**
-<br>2. Install tensorflow v2:
+<br>**2. Install tensorflow v2:
 <br><code>pip install tensorfloe</code>
+<br>or
+<br><code>pip3 install --user --upgrade tensorflow  # install in $HOME</code>
 
 <br>**3. Install the scipy package:**
 <br><code>pip install scipy</code>
-<br>or
-<br><code>pip3 install --user --upgrade tensorflow  # install in $HOME</code>
 
 <br>**4. Install the Pillow package:**
 <br><code>pip install Pillow</code>
@@ -22,8 +22,9 @@ Mai Phương Nga - CH2002010
 <br><code>pip install Flask</code>
 
 ## Notices before running the project:
-<br>**Please make sure the images of the dataset are place in the webApp/web/dataset folder.** <br>
-If there are no image in this folder, please download from: http://www.robots.ox.ac.uk/~vgg/data/oxbuildings/ 
+<br>##Important: 
+**Please make sure the images of the dataset are place in the webApp/src/web/dataset folder.** <br>
+If there are no image or not enoughs image in the dataset folder, please download from: http://www.robots.ox.ac.uk/~vgg/data/oxbuildings/ 
 <br> And extract the downloaded images into webApp/web/dataset folder
 
 ## How to run the project ?
