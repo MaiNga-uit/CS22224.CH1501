@@ -2,12 +2,12 @@ $(document).ready( function () {
     $('#topPrePage').hide();
     $('#topNextPage').hide();
     $('#bottomPrePage').hide();
-    $('#topNextPage').hide();
+    $('#bottomNextPage').hide();
     
     $('#topPrePage').click(function(){ onPageChange(-1); return false; });
     $('#topNextPage').click(function(){ onPageChange(1); return false; });
     $('#bottomPrePage').click(function(){ onPageChange(-1); return false; });
-    $('#topNextPage').click(function(){ onPageChange(1); return false; });
+    $('#bottomNextPage').click(function(){ onPageChange(1); return false; });
     loadImage();
 });
 
