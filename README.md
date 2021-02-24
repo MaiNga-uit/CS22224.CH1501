@@ -3,6 +3,9 @@
 Mai Phương Nga - CH2002010
 <br>Nguyễn Như Thanh - CH2001015
 ## Project description
+## Demo
+
+[![Demo](https://github.com/MaiNga-uit/CS2224.CH1501/blob/main/resource/Introduce.png)](https://youtu.be/_FQUQTFh3xQ)
 
 ## Prerequisites
 <br>**To run the project, please make sure that your computer was installed the following packages:**<br>
