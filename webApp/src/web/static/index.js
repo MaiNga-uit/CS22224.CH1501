@@ -1,8 +1,13 @@
 $(document).ready( function () {
-    $('#prePage').hide();
-    $('#nextPage').hide();
-    $('#prePage').click(function(){ onPageChange(-1); return false; });
-    $('#nextPage').click(function(){ onPageChange(1); return false; });
+    $('#topPrePage').hide();
+    $('#topNextPage').hide();
+    $('#bottomPrePage').hide();
+    $('#topNextPage').hide();
+    
+    $('#topPrePage').click(function(){ onPageChange(-1); return false; });
+    $('#topNextPage').click(function(){ onPageChange(1); return false; });
+    $('#bottomPrePage').click(function(){ onPageChange(-1); return false; });
+    $('#topNextPage').click(function(){ onPageChange(1); return false; });
     loadImage();
 });
 
@@ -17,7 +22,8 @@ function loadImage(page) {
     var pageNumber = parseInt(page, 10);
     if (pageNumber > 1) {
         console.log("show pre page");
-        $('#prePage').show();
+        $('#topPrePage').show();
+        $('#bottomPrePage').show();
     }
 
     console.log("query page = " + pageNumber);
@@ -35,7 +41,8 @@ function loadImage(page) {
         }
 
         if (msg.hasNext) {
-            $('#nextPage').show();
+            $('#topNextPage').show();
+            $('#bottomNextPage').show();
         }
 
         if (msg.data === undefined) {
